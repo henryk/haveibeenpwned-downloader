@@ -1,0 +1,6 @@
+services:
+  downloader:
+    image: ghcr.io/henryk/haveibeenpwned-downloader:latest
+    volumes:
+      - ./data:/data
+      
